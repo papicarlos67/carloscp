@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ejercicio 3 - Menú Digital QR</title>
+
+    <!-- MÉTODO 1: Bootstrap mediante CDN -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+</head>
+
+<body class="bg-light p-3">
+
+    <div class="container bg-white p-4 rounded shadow-sm text-center"
+         style="max-width: 600px;">
+
+        <!-- Lista Horizontal Tipográfica -->
+        <ul class="list-inline text-uppercase fw-bold text-primary mb-3 border-bottom pb-2 small">
+
+            <li class="list-inline-item mx-2">Entradas</li>
+
+            <li class="list-inline-item mx-2 text-dark border-bottom border-2 border-dark">
+                Platos
+            </li>
+
+            <li class="list-inline-item mx-2">Postres</li>
+
+            <li class="list-inline-item mx-2">Bebidas</li>
+
+        </ul>
+
+        <h1 class="display-6 fw-bold text-dark mb-4">
+            Platos Principales
+        </h1>
+
+        <!-- Lista Sin Viñetas Tipográfica -->
+        <ul class="list-unstyled text-start">
+
+            <li class="mb-3 border-bottom pb-2">
+
+                <p class="h4 fw-bold text-dark mb-0 d-flex justify-content-between">
+                    <span>1. Lomo Salteado Gourmet</span>
+                    <span class="text-success">$18.50</span>
+                </p>
+
+                <p class="fst-italic text-muted small mb-0">
+                    Trozos de lomo de res, cebolla morada,
+                    tomate y especias.
+                </p>
+
+            </li>
+
+            <li class="mb-2">
+
+                <p class="h4 fw-bold text-dark mb-0 d-flex justify-content-between">
+                    <span>2. Risotto de Champiñones</span>
+                    <span class="text-success">$16.00</span>
+                </p>
+
+                <p class="fst-italic text-muted small mb-0">
+                    Arroz arborio, setas silvestres
+                    y queso parmesano.
+                </p>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- JavaScript de Bootstrap -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
